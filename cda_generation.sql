@@ -92,11 +92,11 @@ INSERT INTO `login_details` VALUES ('physician ', '123', 'Physician');
 INSERT INTO `login_details` VALUES ('User', '123', 'User');
 INSERT INTO `login_details` VALUES ('HospitalA', '123', 'HospitalA');
 INSERT INTO `login_details` VALUES ('HospitalB', '123', 'HospitalB');
-INSERT INTO `login_details` VALUES ('raviprakashsingh146@gmail.com', '123', 'Physician');
-INSERT INTO `login_details` VALUES ('rvcv1992@gmail.com', '123', 'User');
-INSERT INTO `login_details` VALUES ('gbsahana.999@gmail.com', '123', 'Physician');
-INSERT INTO `login_details` VALUES ('vinayasingh55@gmail.com', '123', 'Physician');
-INSERT INTO `login_details` VALUES ('95lavanyanmurthy@gmail.com', '123', 'User');
+INSERT INTO `login_details` VALUES ('mailid', '123', 'Physician');
+INSERT INTO `login_details` VALUES ('mailid', '123', 'User');
+INSERT INTO `login_details` VALUES ('mailid', '123', 'Physician');
+INSERT INTO `login_details` VALUES ('mailid', '123', 'Physician');
+INSERT INTO `login_details` VALUES ('mailid', '123', 'User');
 
 -- ----------------------------
 -- Table structure for `patient_info`
@@ -133,10 +133,10 @@ CREATE TABLE `patient_info` (
 -- ----------------------------
 -- Records of patient_info
 -- ----------------------------
-INSERT INTO `patient_info` VALUES ('PA-0998', 'Raju', 'male', '34', '2017-05-20', 'raju@gmail.com', 'DO-9803', 'rajveer', 'suffering from cold cuff', 'cold cuff', 'cipla', 'simple medicene', 'pain', 'good', 'good', 'aabcdef', 'aabcdef', 'aabcdef', 'aabcdef', 'aabcdef', 'aabcdef', 'aabcdef', 'hospitalA', '123505', 'raviprakashsingh146@gmail.com');
-INSERT INTO `patient_info` VALUES ('PA-09983', 'Raju', 'male', '45', '2017-05-21', 'raju@gmail.com', 'DO-9803', 'Rajiv', 'suffering from cold cuff', 'cold cuff', 'cipla', 'simple medicene', 'pain', 'good', 'good', 'aabcdef', 'aabcdef', 'aabcdef', 'aabcdef', 'aabcdef', 'aabcdef', 'aabcdef', 'hospitalB', 'Not Required', 'rvcv1992@gmail.com');
-INSERT INTO `patient_info` VALUES ('PA-09373', 'golu', 'male', '34', '2017-05-10', 'gopi@gmail.com', 'DA-9845', 'rajveerkr', 'suffering from cold cuff', 'cold cuff', 'cipla, some other medicine', 'simple medicene', 'pain', 'good', 'good', 'aabcdef', 'aabcdef', 'aabcdef', 'aabcdef', 'aabcdef', 'aabcdef', 'aabcdef', 'hospitalA', '618774', 'raviprakashsingh146@gmail.com');
-INSERT INTO `patient_info` VALUES ('PA-099845', 'Gopi', 'male', '45', '2017-05-04', 'gopi@gmail.com', 'DA-9845', 'Rajiv', 'suffering from cold cuff', 'cold cuff', 'cipla, some other medicine', 'simple medicene', 'pain', 'good', 'good', 'aabcdef', 'aabcdef', 'aabcdef', 'aabcdef', 'aabcdef', 'aabcdef', 'aabcdef', 'hospitalB', 'Not Required', 'rvcv1992@gmail.com');
+INSERT INTO `patient_info` VALUES ('PA-0998', 'Raju', 'male', '34', '2017-05-20', 'gmail.com', 'DO-9803', 'rajveer', 'suffering from cold cuff', 'cold cuff', 'cipla', 'simple medicene', 'pain', 'good', 'good', 'aabcdef', 'aabcdef', 'aabcdef', 'aabcdef', 'aabcdef', 'aabcdef', 'aabcdef', 'hospitalA', '123505', '6@gmail.com');
+INSERT INTO `patient_info` VALUES ('PA-09983', 'Raju', 'male', '45', '2017-05-21', 'gmail.com', 'DO-9803', 'Rajiv', 'suffering from cold cuff', 'cold cuff', 'cipla', 'simple medicene', 'pain', 'good', 'good', 'aabcdef', 'aabcdef', 'aabcdef', 'aabcdef', 'aabcdef', 'aabcdef', 'aabcdef', 'hospitalB', 'Not Required', '@gmail.com');
+INSERT INTO `patient_info` VALUES ('PA-09373', 'golu', 'male', '34', '2017-05-10', 'gmail.com', 'DA-9845', 'rajveerkr', 'suffering from cold cuff', 'cold cuff', 'cipla, some other medicine', 'simple medicene', 'pain', 'good', 'good', 'aabcdef', 'aabcdef', 'aabcdef', 'aabcdef', 'aabcdef', 'aabcdef', 'aabcdef', 'hospitalA', '618774', '@gmail.com');
+INSERT INTO `patient_info` VALUES ('PA-099845', 'Gopi', 'male', '45', '2017-05-04', 'gmail.com', 'DA-9845', 'Rajiv', 'suffering from cold cuff', 'cold cuff', 'cipla, some other medicine', 'simple medicene', 'pain', 'good', 'good', 'aabcdef', 'aabcdef', 'aabcdef', 'aabcdef', 'aabcdef', 'aabcdef', 'aabcdef', 'hospitalB', 'Not Required', 'gmail.com');
 
 -- ----------------------------
 -- Table structure for `registration_details`
@@ -156,8 +156,8 @@ CREATE TABLE `registration_details` (
 -- ----------------------------
 -- Records of registration_details
 -- ----------------------------
-INSERT INTO `registration_details` VALUES ('DA-6587', 'ravi', '123', 'raviprakashsingh146@gmail.com', '1234567890', 'karnataka', 'india', 'Physician');
-INSERT INTO `registration_details` VALUES ('PA-09983', 'raju', '123', 'rvcv1992@gmail.com', '1234567890', 'karnataka', 'india', 'User');
-INSERT INTO `registration_details` VALUES ('DA-658744', 'rajveersr', '123', 'gbsahana.999@gmail.com', '1234567890', 'karnataka', 'india', 'Physician');
-INSERT INTO `registration_details` VALUES ('PA-0998333', 'ranjab', '123', 'vinayasingh55@gmail.com', '1234567890', 'karnataka', 'india', 'Physician');
-INSERT INTO `registration_details` VALUES ('PA-562144', 'raghuss', '123', '95lavanyanmurthy@gmail.com', '1234567890', 'karnataka', 'india', 'User');
+INSERT INTO `registration_details` VALUES ('DA-6587', 'ravi', '123', '@gmail.com', '1234567890', 'karnataka', 'india', 'Physician');
+INSERT INTO `registration_details` VALUES ('PA-09983', 'raju', '123', '@gmail.com', '1234567890', 'karnataka', 'india', 'User');
+INSERT INTO `registration_details` VALUES ('DA-658744', 'rajveersr', '123', '@gmail.com', '1234567890', 'karnataka', 'india', 'Physician');
+INSERT INTO `registration_details` VALUES ('PA-0998333', 'ranjab', '123', '@gmail.com', '1234567890', 'karnataka', 'india', 'Physician');
+INSERT INTO `registration_details` VALUES ('PA-562144', 'raghuss', '123', '@gmail.com', '1234567890', 'karnataka', 'india', 'User');
