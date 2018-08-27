@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hospital>
+  <Patient ID="BT-000">
+    <Patient-Name>Priya</Patient-Name>
+    <Patient-Gender>female</Patient-Gender>
+    <Patient-Age>22</Patient-Age>
+    <salary>22</salary>
+    <Date-Of-Birth>1995-03-25</Date-Of-Birth>
+    <Patient-Email>95lavanyanmurthy@gmail.com</Patient-Email>
+    <Doctor-ID>DA-181</Doctor-ID>
+    <Doctor-Name>lav</Doctor-Name>
+    <Patient-Information>she is suffering from shortage of insulin, from past 3months,she has took the treatment in hospital A, then they refered to this hospital for further treatment</Patient-Information>
+    <Hospitalized-Resion />
+    <Patient-Medications>insulin</Patient-Medications>
+    <Patient-Immunization>dfghjk</Patient-Immunization>
+    <Patient-Problem>diabetes</Patient-Problem>
+    <Patient-Family-History>dfghjk</Patient-Family-History>
+    <Patient-Social-History>mmmmmmmmmm</Patient-Social-History>
+    <Patient-Allergies>none</Patient-Allergies>
+    <Patient-Medical-Equipment>nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn</Patient-Medical-Equipment>
+    <Patient-Vital-Signs>none</Patient-Vital-Signs>
+    <Patient-Results>hjk</Patient-Results>
+    <Patient-Procedures>hj</Patient-Procedures>
+    <Patient-Encounter>dfghjdfghj</Patient-Encounter>
+    <Patient-Plan-Of-Care>jjjj</Patient-Plan-Of-Care>
+    <Hospital-Name>hospitalB</Hospital-Name>
+  </Patient>
+</Hospital>
+

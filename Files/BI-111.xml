@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hospital>
+  <Patient ID="BI-111">
+    <Patient-Name>priya</Patient-Name>
+    <Patient-Gender>female</Patient-Gender>
+    <Patient-Age>22</Patient-Age>
+    <salary>22</salary>
+    <Date-Of-Birth>1995-01-21</Date-Of-Birth>
+    <Patient-Email>95lavanyanmurthy@gmail.com</Patient-Email>
+    <Doctor-ID>DO-111</Doctor-ID>
+    <Doctor-Name>lav</Doctor-Name>
+    <Patient-Information>she is suffering from shortage of insulin, from past 3months</Patient-Information>
+    <Hospitalized-Resion />
+    <Patient-Medications>intake of insulin by means of injection tube</Patient-Medications>
+    <Patient-Immunization>better</Patient-Immunization>
+    <Patient-Problem>shortage of insulin</Patient-Problem>
+    <Patient-Family-History>His father has the same problem of this disease,her mother is healthy lady</Patient-Family-History>
+    <Patient-Social-History>she is working as a teacher in govt high school</Patient-Social-History>
+    <Patient-Allergies>none</Patient-Allergies>
+    <Patient-Medical-Equipment>injection</Patient-Medical-Equipment>
+    <Patient-Vital-Signs>tired</Patient-Vital-Signs>
+    <Patient-Results>curing the disease</Patient-Results>
+    <Patient-Procedures>intake of insulin</Patient-Procedures>
+    <Patient-Encounter>lllll</Patient-Encounter>
+    <Patient-Plan-Of-Care>ghjkl</Patient-Plan-Of-Care>
+    <Hospital-Name>hospitalA</Hospital-Name>
+  </Patient>
+</Hospital>
+
